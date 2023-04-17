@@ -1,0 +1,29 @@
+{
+  "name": "template-webresource-typescript",
+  "version": "0.0.1",
+  "description": "A template to create Web Resources for Microsoft Model-driven PowerApps using TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist && webpack"
+  },
+  "keywords": [
+    "Microsoft",
+    "PowerApps",
+    "Model-driven",
+    "WebResources"
+  ],
+  "author": "Davide De Pretto",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-typescript": "^7.21.4",
+    "@types/xrm": "^9.0.71",
+    "babel-loader": "^9.1.2",
+    "glob": "^9.3.4",
+    "typescript": "^5.0.4",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
