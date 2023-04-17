@@ -32,19 +32,19 @@ This practice can be useful, especially in a context like Dataverse Web Resource
 For example, consider this scenario:
 
 - `src/`
-   - `MyFirstWebResource.ts` (references `Utils.ts` and `Service1.ts`)
-   - `MySecondWebResource.ts` (references `Utils.ts` and `Service2.ts`)
+   - `MyFirstWR.ts` (references `Utils.ts` and `Service1.ts`)
+   - `MySecondWR.ts` (references `Utils.ts` and `Service2.ts`)
    - `utils/`
-      - `Utils.ts` (references two different npm packages, `NPMA` and `NPMB`)
+      - `Utils.ts` (references npm packages `NPMA` and `NPMB`)
    - `services/`
-      - `Service1.ts` (references one npm package, `NPMC`)
-      - `Service2.ts` (references two npm packages, `NPMD` and `NPME`)
+      - `Service1.ts` (references npm package, `NPMC`)
+      - `Service2.ts` (references npm packages `NPMD` and `NPME`)
 
 Building this project will result in:
 
 - `dist/`
-   - `MyFirstWebResource.js` (contains all the transpiled code from MyFirstWebResource.ts, and also `Utils.ts`, `Service1.ts`, `NPMA`, `NPMB`, and `NPMC`).
-   - `MySecondWebResource.js` (contains all the transpiled code from MySecondWebResource.ts, and also `Utils.ts`, `Service2.ts`, `NPMA`, `NPMB`, `NPMD`, and `NPME`).
+   - `MyFirstWR.js` (contains all the transpiled code from `MyFirstWR.ts`, and also `Utils.ts`, `Service1.ts`, `NPMA`, `NPMB`, and `NPMC`).
+   - `MySecondWR.js` (contains all the transpiled code from `MySecondWR.ts`, and also `Utils.ts`, `Service2.ts`, `NPMA`, `NPMB`, `NPMD`, and `NPME`).
 
 You can upload each `*.js` file as a completely independent, self-contained Web Resource.
 
