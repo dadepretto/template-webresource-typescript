@@ -1,6 +1,6 @@
 {
   "name": "template-webresource-typescript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A template to create Web Resources for Microsoft Model-driven PowerApps using TypeScript",
   "main": "index.js",
   "scripts": {
