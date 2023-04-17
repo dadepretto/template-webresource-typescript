@@ -1,6 +1,12 @@
 # TypeScript Web Resource Template
 This project is a template to create JavaScript Web Resources for Dataverse using TypeScript, Webpack and Babel.
 
+## Changelog
+
+| Version | Date       | Changes | Notes           |
+| ------- | ---------- | ------- | --------------- |
+| 0.0.1   | 2023-04-17 | -       | Initial version |
+
 # Usage
 1. 📑 Clone or download this repository.
 2. 📦 Change properties of `package.json` (e.g., `name` and the `author`), according to your project configuration.
