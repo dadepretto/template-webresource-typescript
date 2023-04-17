@@ -3,9 +3,10 @@ This project is a template to create JavaScript Web Resources for Dataverse usin
 
 ## Changelog
 
-| Version | Date       | Changes | Notes           |
-| ------- | ---------- | ------- | --------------- |
-| 0.0.1   | 2023-04-17 | -       | Initial version |
+| Version | Date       | Changes                        | Notes           |
+| ------- | ---------- | ------------------------------ | --------------- |
+| 0.0.1   | 2023-04-17 | -                              | Initial version |
+| 0.0.2   | 2023-04-17 | Bump glob from 9.3.5 to 10.1.0 |                 |
 
 # Usage
 1. 📑 Clone or download this repository.
