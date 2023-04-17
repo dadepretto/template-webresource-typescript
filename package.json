@@ -21,7 +21,7 @@
     "@babel/preset-typescript": "^7.21.4",
     "@types/xrm": "^9.0.71",
     "babel-loader": "^9.1.2",
-    "glob": "^9.3.4",
+    "glob": "^10.1.0",
     "typescript": "^5.0.4",
     "webpack": "^5.78.0",
     "webpack-cli": "^5.0.1"
